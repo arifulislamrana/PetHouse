@@ -1,0 +1,160 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background: linear-gradient(57deg,rgb(11, 11, 189),rgb(88, 152, 211));
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(57deg,rgb(88, 152, 211),rgb(11, 11, 189));
+    clip-path: polygon(0% 0%,100% 0%,100% 80%,0% 100%);
+}
+header nav{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+header nav .logo{
+    flex: 1;
+    height: 100%;
+}
+header nav .logo img{
+    height: 80%;
+    width: 80%;
+}
+header nav .blank{
+    flex: 1;
+
+}
+header nav .links{
+    flex: 3;
+    height: 100%;
+
+}
+header nav .links ul{
+    flex: 3;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: right;
+
+}
+header nav .links ul li{
+    margin-top: 6%;
+    list-style: none;
+    color: white;
+
+}
+header nav .links ul li a{
+    height: 100%;
+    text-decoration: none;
+    color: white;
+
+}
+header section{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+header section .left{
+    flex: 1;
+    height: 100%;
+}
+header section .left img{
+    height: 80%;
+    width: 80%;
+}
+header section .right{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 150%;
+    align-content: center;
+    text-align: center;
+}
+header section .right h1{
+   margin-top: 10%; 
+}
+header section .right h3{
+    margin-top: 7%; 
+ }
+ header section .right button{
+    margin-top: 6%; 
+    height: 8vh;
+    width: 30%;
+    margin-left: 36%;
+    border-radius: 10px;
+    background:linear-gradient(57deg,rgb(88, 152, 211),rgb(11, 11, 189));
+    color: white;
+    font-size: 80%;
+ }
+ header section .right button:hover{
+    background:linear-gradient(57deg,rgb(11, 11, 189),rgb(88, 152, 211));
+ }
+
+ .body{
+     width: 100%;
+     height: auto;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+ }
+ .body .bodyleft{
+     flex: 1;
+     background: linear-gradient(57deg,rgb(88, 152, 211),rgb(11, 11, 189));
+     text-align: center;
+     color: white;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     font-size: 150%;
+     border-radius: 10px;
+     margin: 1%;
+}
+.body .bodymid{
+    flex: 2;
+    background: linear-gradient(57deg,rgb(88, 152, 211),rgb(11, 11, 189));
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 150%;
+    border-radius: 10px;
+    margin: 1%;
+}
+.body .bodymid p{
+    margin-top: 10%;
+}
+.body .bodyright{
+    flex: 1;
+    background: linear-gradient(57deg,rgb(88, 152, 211),rgb(11, 11, 189));
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 150%;
+    border-radius: 10px;
+    margin: 1%;
+}
+.sell{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(57deg,rgb(11, 11, 189)),rgb(88, 152, 211);
+}
+.sell img{
+    height: 80%;
+    width: 80%;
+}
